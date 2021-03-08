@@ -19,7 +19,7 @@
     "@grouparoo/marketo": "0.2.3",
     "@grouparoo/mysql": "0.2.3",
     "@grouparoo/postgres": "0.2.3",
-    "@grouparoo/salesforce": "0.2.3",
+    "@grouparoo/salesforce": "0.2.5",
     "@grouparoo/snowflake": "0.2.3",
     "@grouparoo/ui-community": "0.2.3",
     "@grouparoo/zendesk": "0.2.3"
