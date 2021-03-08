@@ -9,7 +9,7 @@
     "node": ">=12.0.0 <15.0.0"
   },
   "dependencies": {
-    "@grouparoo/bigquery": "0.2.3",
+    "@grouparoo/bigquery": "0.2.5",
     "@grouparoo/core": "0.2.3",
     "@grouparoo/csv": "0.2.3",
     "@grouparoo/google-sheets": "0.2.3",
