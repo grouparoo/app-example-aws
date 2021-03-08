@@ -4,5 +4,7 @@ Example project for deploying Grouparoo on `AWS` with `ElasticBeanstalk` & `Code
 
 ## Notes
 
-- No `Procfile` can be included
-- Cannot use `$PORT` in Dockerfile references (AWS parses that and passes it on to NGINX)
+- need special install permissions (see `.npmrc`)
+- Set the ENV first before setting up `AWS CodePipeline`
+- no need for a `Procfile`, we use `npm start`
+- Don't use `package.json` - `engines`, AWS will manage this for you
