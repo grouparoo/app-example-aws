@@ -22,4 +22,4 @@ RUN npm prune
 WORKDIR /grouparoo/node_modules/@grouparoo/core
 CMD ["./bin/start"]
 
-EXPOSE $PORT/tcp
+EXPOSE 3000/tcp
