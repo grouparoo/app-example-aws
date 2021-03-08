@@ -12,6 +12,7 @@
     "@grouparoo/bigquery": "0.2.5",
     "@grouparoo/core": "0.2.5",
     "@grouparoo/csv": "0.2.5",
+    "@grouparoo/files-s3": "0.2.5",
     "@grouparoo/google-sheets": "0.2.5",
     "@grouparoo/hubspot": "0.2.5",
     "@grouparoo/logger": "0.2.5",
@@ -31,6 +32,7 @@
     "plugins": [
       "@grouparoo/bigquery",
       "@grouparoo/csv",
+      "@grouparoo/files-s3",
       "@grouparoo/google-sheets",
       "@grouparoo/hubspot",
       "@grouparoo/logger",
