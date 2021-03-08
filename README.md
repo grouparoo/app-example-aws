@@ -27,7 +27,9 @@ Goal: To create a scalable and flexible Grouparoo deployment that:
      - `t2.micro` instances should be OK
      - Set your Environment variables to connect to Redis and Postgres
 
-5. Create teh CodeDeploy Pipeline to update the application
+5. Create the CodeDeploy Pipeline to update the application
+6. Configure Monitoring
+7. Configure Load Balancer, SSL, and DNS
 
 ## Notes
 
