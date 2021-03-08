@@ -35,7 +35,6 @@
       "@grouparoo/hubspot",
       "@grouparoo/logger",
       "@grouparoo/mailchimp",
-      "@grouparoo/marketo",
       "@grouparoo/mysql",
       "@grouparoo/postgres",
       "@grouparoo/salesforce",
