@@ -3,7 +3,7 @@ FROM node:14
 WORKDIR /grouparoo
 
 ENV NODE_ENV='production'
-ENV PORT=3000
+ENV PORT=8080
 ENV WEB_URL=http://localhost:$PORT
 ENV WEB_SERVER=true
 ENV SERVER_TOKEN="default-server-token"
@@ -22,4 +22,4 @@ RUN npm prune
 WORKDIR /grouparoo/node_modules/@grouparoo/core
 CMD ["./bin/start"]
 
-EXPOSE 3000/tcp
+EXPOSE 8080/tcp
