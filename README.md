@@ -28,6 +28,9 @@ Goal: To create a scalable and flexible Grouparoo deployment that:
      - Set your Environment variables to connect to Redis and Postgres
 
 5. Create the CodeDeploy Pipeline to update the application
+
+   - Do not use a `build` step, all you need is `Source` and `Deploy`
+
 6. Configure Monitoring
 7. Configure Load Balancer, SSL, and DNS
 
