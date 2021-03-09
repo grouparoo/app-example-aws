@@ -1,6 +1,6 @@
 # app-example-aws
 
-Example project for deploying Grouparoo on `AWS` with `ElasticBeanstalk` & `CodeDeploy`.
+Example Grouparoo project for deploying Grouparoo on `AWS` with `ElasticBeanstalk` & `CodeDeploy`.
 
 Goal: To create a scalable and flexible Grouparoo deployment that:
 
