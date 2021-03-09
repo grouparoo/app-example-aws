@@ -50,7 +50,7 @@ grouparoo init .
 
 ## Notes
 
-- need special install permissions (see `.npmrc`)
+- Elastic Beanstalk needs special install permissions (see `.npmrc`)
 - Set the ENV first before setting up `AWS CodePipeline`
 - No need for a `Procfile`, we use `npm start`
 - Don't use `package.json/engines`, AWS will manage this for you
