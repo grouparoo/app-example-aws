@@ -9,7 +9,21 @@ Goal: To create a scalable and flexible Grouparoo deployment that:
 - Will be automatically deployed when the code changes
 - Is a [12-factor app](https://12factor.net/) with all configuration stored in the Environment
 
-## Steps
+## Repository Configuration
+
+1. Create a new Grouparoo project. Learn more @ https://www.grouparoo.com/docs/installation.
+
+```
+npm install -g grouparoo
+grouparoo init .
+```
+
+2. Install the Grouparoo plugins you want, e.g.: `grouparoo install @grouparoo/postgres`. Learn more @ https://www.grouparoo.com/docs/installation/plugins
+
+3. Remove any `engines` declaration from your `package.json`
+4. Create the `.npmrc` to enable `unsafe-perm`
+
+## Deployment Steps
 
 1. Configure your VPC
 2. Create the Grouparoo Database
@@ -38,5 +52,5 @@ Goal: To create a scalable and flexible Grouparoo deployment that:
 
 - need special install permissions (see `.npmrc`)
 - Set the ENV first before setting up `AWS CodePipeline`
-- no need for a `Procfile`, we use `npm start`
+- No need for a `Procfile`, we use `npm start`
 - Don't use `package.json/engines`, AWS will manage this for you
