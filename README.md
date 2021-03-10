@@ -58,3 +58,7 @@ grouparoo init .
 - You may want to modify logging behavior with:
   - `GROUPAROO_LOGS_STDOUT_DISABLE_TIMESTAMP=true`- AWS adds timestamps to all log messages
   - `GROUPAROO_LOGS_STDOUT_DISABLE_COLOR=true`- AWS will not render log messages in color
+
+---
+
+Vist https://github.com/grouparoo/app-examples to see other Grouparoo Example Projects.
