@@ -40,6 +40,7 @@ grouparoo init .
      - Choose to deploy the sample project first
      - `t2.micro` instances should be OK
      - Set your Environment variables to connect to Redis and Postgres
+   - Set the Environment variables to link up the application to the Postgres and Redis server, as well as enable the web server and workers.
 
 5. Create the CodeDeploy Pipeline to update the application
 
