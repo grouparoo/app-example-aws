@@ -54,3 +54,6 @@ grouparoo init .
 - Set the ENV first before setting up `AWS CodePipeline`
 - No need for a `Procfile`, we use `npm start`
 - Don't use `package.json/engines`, AWS will manage this for you
+- You may want to modify logging behavior with:
+  - `GROUPAROO_LOGS_STDOUT_DISABLE_TIMESTAMP=true`- Heroku adds timestamps to all log messages
+  - `GROUPAROO_LOGS_STDOUT_DISABLE_COLOR=true`- Heroku will not render log messages in color
