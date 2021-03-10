@@ -1,6 +1,6 @@
-# app-example-aws
+# Grouparoo `app-example-aws`
 
-Example Grouparoo project for deploying Grouparoo on `AWS` with `ElasticBeanstalk` & `CodeDeploy`.
+_An example project for deploying Grouparoo on Amazon Web Services (`AWS`) with `ElasticBeanstalk` & `CodeDeploy`._
 
 Goal: To create a scalable and flexible Grouparoo deployment that:
 
@@ -39,10 +39,10 @@ grouparoo init .
    - Environment:
      - Choose to deploy the sample project first
      - `t2.micro` instances should be OK
-     - Set your Environment variables to connect to Redis and Postgres
-   - Set the Environment variables to link up the application to the Postgres and Redis server, as well as enable the web server and workers.
+   - Deploy the Example Project
+   - Set the Environment variables to link up the application to the Postgres and Redis server, as well as enable the web server and workers (while the example project is deployed).
 
-5. Create the CodeDeploy Pipeline to update the application
+5. Create the CodeDeploy Pipeline to update the application from your git repository
 
    - Do not use a `build` step, all you need is `Source` and `Deploy`
 
