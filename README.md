@@ -38,7 +38,7 @@ grouparoo init .
      - `Node.js 14 running on 64bit Amazon Linux 2`
    - Environment:
      - Choose to deploy the sample project first
-     - `t2.micro` instances should be OK
+     - `t2.small` instances should be OK
    - Deploy the Example Project
    - Set the Environment variables to link up the application to the Postgres and Redis server, as well as enable the web server and workers (while the example project is deployed).
 
