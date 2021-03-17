@@ -26,25 +26,34 @@ grouparoo init .
 ## Deployment Steps
 
 1. Configure your VPC
+   - Create an internal Security Group that redis and postgres can use to communicate with the app servers from other members of the security group (port 5432/tcp and 6379/tcp)
+     - [Learn More](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/AWSHowTo.ElastiCache.html)
 2. Create the Grouparoo Database
    - Use Aurora + Postgres
    - Use `Provisioned` servers, we recommend `db.t3.large`
+   - Create a postgres user + password for the Grouparoo application to use
+   - Apply the internal Security Group made in step 1
 3. Create the Grouparoo Redis Server
    - Create 1 replica
    - We recommend `cache.t2.small` servers
-4. Create the Elastic Beanstalk Project
+   - Apply the internal Security Group made in step 1
+4. Create the Elastic Beanstalk Application + Environments
 
    - Application
      - `Node.js 14 running on 64bit Amazon Linux 2`
    - Environment:
      - Choose to deploy the sample project first
      - `t2.small` instances should be OK
+   - Enable Config / Managed Updates
    - Deploy the Example Project
    - Set the Environment variables to link up the application to the Postgres and Redis server, as well as enable the web server and workers (while the example project is deployed).
+
+   You can create multiple Environments in the same Application so you can have a WEB and WORKER environment.
 
 5. Create the CodeDeploy Pipeline to update the application from your git repository
 
    - Do not use a `build` step, all you need is `Source` and `Deploy`
+   - If you you created multiple Elastic Beanstalk Environments, you can create a second Deploy step within a single CodeDeploy pipeline.
 
 6. Configure Monitoring
 7. Configure Load Balancer, SSL, and DNS
