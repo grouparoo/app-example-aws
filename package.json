@@ -18,7 +18,7 @@
     "@grouparoo/postgres": "0.2.8-alpha.0",
     "@grouparoo/salesforce": "0.2.8-alpha.0",
     "@grouparoo/snowflake": "0.2.8-alpha.0",
-    "@grouparoo/ui-community": "0.2.8-alpha.0",
+    "@grouparoo/ui-community": "0.2.8-alpha.1",
     "@grouparoo/zendesk": "0.2.8-alpha.0"
   },
   "scripts": {
