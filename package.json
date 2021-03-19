@@ -10,7 +10,7 @@
     "@grouparoo/core": "0.2.8-alpha.0",
     "@grouparoo/csv": "0.2.8-alpha.0",
     "@grouparoo/files-s3": "0.2.8-alpha.0",
-    "@grouparoo/google-sheets": "0.2.8-alpha.0",
+    "@grouparoo/google-sheets": "0.2.8-alpha.1",
     "@grouparoo/hubspot": "0.2.8-alpha.0",
     "@grouparoo/logger": "0.2.8-alpha.0",
     "@grouparoo/mailchimp": "0.2.8-alpha.0",
