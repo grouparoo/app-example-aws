@@ -19,7 +19,7 @@
     "@grouparoo/salesforce": "0.2.8-alpha.0",
     "@grouparoo/snowflake": "0.2.8-alpha.0",
     "@grouparoo/ui-community": "0.2.8-alpha.0",
-    "@grouparoo/zendesk": "0.2.8-alpha.0"
+    "@grouparoo/zendesk": "0.2.8-alpha.1"
   },
   "scripts": {
     "start": "cd node_modules/@grouparoo/core && ./bin/start",
