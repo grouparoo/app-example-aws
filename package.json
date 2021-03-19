@@ -12,7 +12,7 @@
     "@grouparoo/files-s3": "0.2.8-alpha.0",
     "@grouparoo/google-sheets": "0.2.8-alpha.0",
     "@grouparoo/hubspot": "0.2.8-alpha.0",
-    "@grouparoo/logger": "0.2.8-alpha.0",
+    "@grouparoo/logger": "0.2.8-alpha.1",
     "@grouparoo/mailchimp": "0.2.8-alpha.0",
     "@grouparoo/mysql": "0.2.8-alpha.0",
     "@grouparoo/postgres": "0.2.8-alpha.0",
