@@ -9,7 +9,7 @@ Goal: To create a scalable and flexible Grouparoo deployment that:
 - Will be automatically deployed when the code changes
 - Is a [12-factor app](https://12factor.net/) with all configuration stored in the Environment
 
-## Repository Configuration
+## How We Got Here
 
 1. Create a new Grouparoo project. Learn more @ https://www.grouparoo.com/docs/installation.
 
@@ -22,6 +22,16 @@ grouparoo init .
 
 3. Remove any `engines` declaration from your `package.json`
 4. Create the `.npmrc` to enable `unsafe-perm`
+
+## Running this Repo
+
+Assuming you have node.js installed (v12+) and the Grouparoo CLI (npm install -g grouparoo):
+
+git clone https://github.com/grouparoo/app-example-heroku.git
+cd app-example-heroku
+npm install
+cp .env.example .env
+grouparoo run
 
 ## Deployment Steps
 
