@@ -27,11 +27,11 @@ grouparoo init .
 
 Assuming you have node.js installed (v12+) and the Grouparoo CLI (npm install -g grouparoo):
 
-git clone https://github.com/grouparoo/app-example-heroku.git
-cd app-example-heroku
-npm install
-cp .env.example .env
-grouparoo run
+1. `git clone https://github.com/grouparoo/app-example-aws.git`
+2. `cd app-example-aws`
+3. `npm install`
+4. `cp .env.example .env`
+5. `grouparoo run`
 
 ## Deployment Steps
 
