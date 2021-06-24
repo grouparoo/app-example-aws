@@ -6,7 +6,7 @@
   "license": "MPL-2.0",
   "private": true,
   "dependencies": {
-    "@grouparoo/bigquery": "0.3.3",
+    "@grouparoo/bigquery": "0.4.1",
     "@grouparoo/core": "0.3.3",
     "@grouparoo/csv": "0.3.3",
     "@grouparoo/files-s3": "0.3.3",
