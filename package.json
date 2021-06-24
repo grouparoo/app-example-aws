@@ -7,7 +7,7 @@
   "private": true,
   "dependencies": {
     "@grouparoo/bigquery": "0.3.3",
-    "@grouparoo/core": "0.3.3",
+    "@grouparoo/core": "0.4.1",
     "@grouparoo/csv": "0.3.3",
     "@grouparoo/files-s3": "0.3.3",
     "@grouparoo/google-sheets": "0.3.3",
