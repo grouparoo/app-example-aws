@@ -18,7 +18,7 @@
     "@grouparoo/postgres": "0.3.3",
     "@grouparoo/salesforce": "0.3.3",
     "@grouparoo/snowflake": "0.3.3",
-    "@grouparoo/ui-community": "0.3.3",
+    "@grouparoo/ui-community": "0.4.1",
     "@grouparoo/zendesk": "0.3.3"
   },
   "scripts": {
