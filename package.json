@@ -8,7 +8,7 @@
   "dependencies": {
     "@grouparoo/bigquery": "0.4.1",
     "@grouparoo/core": "0.4.1",
-    "@grouparoo/csv": "0.4.1",
+    "@grouparoo/csv": "0.4.2",
     "@grouparoo/files-s3": "0.4.1",
     "@grouparoo/google-sheets": "0.4.1",
     "@grouparoo/hubspot": "0.4.1",
