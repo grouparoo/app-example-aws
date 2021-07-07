@@ -17,7 +17,7 @@
     "@grouparoo/mysql": "0.4.2",
     "@grouparoo/postgres": "0.4.2",
     "@grouparoo/salesforce": "0.4.2",
-    "@grouparoo/snowflake": "0.4.2",
+    "@grouparoo/snowflake": "0.4.3",
     "@grouparoo/ui-community": "0.4.2",
     "@grouparoo/zendesk": "0.4.2"
   },
