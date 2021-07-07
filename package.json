@@ -12,7 +12,7 @@
     "@grouparoo/files-s3": "0.4.2",
     "@grouparoo/google-sheets": "0.4.2",
     "@grouparoo/hubspot": "0.4.2",
-    "@grouparoo/logger": "0.4.2",
+    "@grouparoo/logger": "0.4.3",
     "@grouparoo/mailchimp": "0.4.2",
     "@grouparoo/mysql": "0.4.2",
     "@grouparoo/postgres": "0.4.2",
