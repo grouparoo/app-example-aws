@@ -14,7 +14,7 @@
     "@grouparoo/hubspot": "0.4.2",
     "@grouparoo/logger": "0.4.2",
     "@grouparoo/mailchimp": "0.4.2",
-    "@grouparoo/mysql": "0.4.2",
+    "@grouparoo/mysql": "0.4.3",
     "@grouparoo/postgres": "0.4.2",
     "@grouparoo/salesforce": "0.4.2",
     "@grouparoo/snowflake": "0.4.2",
