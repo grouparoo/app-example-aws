@@ -47,6 +47,7 @@ Assuming you have node.js installed (v12+):
    - Create 1 replica
    - We recommend `cache.t2.small` servers
    - Apply the internal Security Group made in step 1
+   - Learn more about connecting to an [ElasticCache redis server here](https://github.com/grouparoo/grouparoo/discussions/2084)
 4. Create the Elastic Beanstalk Application + Environments
 
    - Application
